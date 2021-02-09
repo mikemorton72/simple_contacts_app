@@ -1,0 +1,3 @@
+@contacts.map do |contact|
+  render partial: "contact", locals: { contact: contact }
+end
